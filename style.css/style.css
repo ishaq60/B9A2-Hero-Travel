@@ -252,7 +252,110 @@ nav li a {
 }
 
 
+.deals-discount {
+    margin-top: 80px;
+    text-align: center;
+}
+.deals-discount>h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.deals-discount>p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 640px;
+    margin: 24px auto 48px;
+}
+.discount-container {
+    background: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+    margin-bottom: 5%;
+}
+.discount-container-alternate {
+    background: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+    margin-bottom: 5%;
+}
+.discount-container-description {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    text-align: left;
+    padding: 3%;
+    margin-left: 45%;
+}
+.alternate-part {
+    margin-left: 0;
+    margin-right: 45%;
+}
+.trip-stat {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.trip-stat span {
+    margin-left: 10px;
+}
+.discount-container-description>h4 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 16px 0;
+}
+.tour-description {
+    color: #5A5A5D;
+}
+.price {
+    color: #FF5400;
+    font-weight: 800;
+    margin: 16px 0 24px;
+}
+/* bangladesh style   */
+.bangladesh {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.bangladesh-description {
+    width: 48%;
+}
+.bangladesh-video {
+    position: relative;
+    text-align: center;
+    width: 48%;
+}
+.bangladesh-description>h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+.bangladesh-description>ul {
+    padding-left: 3%;
+    margin: 24px 0;
+}
+.bangladesh-description li {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
 
+.bangladesh-video>video {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.bangladesh-video>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.5rem
+}
 
 /* newsletter style */
 .newsletter {
