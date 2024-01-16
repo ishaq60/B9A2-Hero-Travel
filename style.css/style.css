@@ -179,9 +179,64 @@ nav li a {
 .popular-tours-description li {
     margin-bottom: 3%;
 }
+.choose {
+    margin-top: 80px;
+    text-align: center;
+}
+.choose h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.choose>p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 640px;
+    margin: 24px auto 48px;
+}
+.choosing-reason {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+    text-align: left;
+    gap: 24px;
+}
+.reason {
+    padding: 32px;
+}
+.reason>h4 {
+    margin: 32px 0 16px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.reason p {
+    color: #5A5A5D;
+}
+.res-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.res-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.res-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+#reason-1 {
+    grid-column: 1/span 6;
+}
+#reason-2 {
+    grid-column: 7/span 6;
+}
+#reason-3 {
+    grid-column: 4/span 6;
+}
 
 
-/* places style */
+
 .destination-place-description {
     margin-top: 80px;
     text-align: center;
